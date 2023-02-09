@@ -1,1 +1,1 @@
-contains commands to navigate the shell
+This is shell permissions
