@@ -12,3 +12,14 @@ package { 'nginx':
   ensure   => present,
   provider => 'apt'
 }
+
+file { '/etc/nginx/conf.d/custom_header.conf':
+  content => "add_header X-Served-By $hostname;\n",
+  require => Package['nginx'],
+}
+
+service { 'nginx':
+  ensure  => 'running',
+  enable  => true,
+  require => File['/etc/nginx/conf.d/custom_header.conf'],
+}
