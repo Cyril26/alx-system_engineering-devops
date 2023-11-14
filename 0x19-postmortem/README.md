@@ -1,7 +1,7 @@
 # Server Outage Incident Report
 > The Wicked & Bad Studios API Infrastructure Team
 
-![](https://www.google.com/url?sa=i&url=https%3A%2F%2Fknowyourmeme.com%2Fmemes%2Fcredit-card-declines&psig=AOvVaw0DaETWq_g1KYcRCqin9MOb&ust=1700046904041000&source=images&cd=vfe&opi=89978449&ved=0CBIQjRxqFwoTCNCow7Cuw4IDFQAAAAAdAAAAABAJ)
+![](https://i.kym-cdn.com/entries/icons/original/000/035/412/Card_Declines_banner.jpg)
 
 ## Incident Summary:
 On November 26, 2023, our Payment Processing API experienced a significant outage, resulting in transaction failures and service unavailability for about 10% of users. The incident originated from a practical bug in the API logic that went unnoticed during the development phase and surfaced in the production environment.
@@ -38,7 +38,7 @@ To prevent similar incidents in the future, the following measures will be imple
 - Rollout Validation:
     - Implement a validation process for code rollouts, ensuring that critical logic changes undergo thorough validation before deployment to production.
 
-![](https://www.google.com/url?sa=i&url=https%3A%2F%2Fbr.ifunny.co%2Ftags%2Fpayment&psig=AOvVaw0N35YRwMOwkKLvXTMaoXZu&ust=1700046995390000&source=images&cd=vfe&opi=89978449&ved=0CBIQjRxqFwoTCPCN_Nuuw4IDFQAAAAAdAAAAABAE)
+![](https://imgb.ifunny.co/images/08302766855c839167680eacf7ff04d9548b47100b7977f28f0f2294597095d9_1.webp)
 
 ## Conclusion:
 This root cause analysis sheds light on the practical bug in the Payment Processing API logic that led to transaction failures and service unavailability. By implementing the suggested preventive measures, we aim to fortify our development and deployment processes to prevent the recurrence of such incidents in the future.
