@@ -14,7 +14,7 @@ server_config=\
 frontend  cyrilodm.tech
         bind *:80
         mode http
-        default_backend cyrilodm.tech_backendd
+        default_backend cyrilodm.tech_backend
 backend cyrilodm.tech_backend
         balance roundrobin
         server 235470-web-01 54.236.27.0:80 check
